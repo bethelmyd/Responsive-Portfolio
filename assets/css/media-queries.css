@@ -1,0 +1,85 @@
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+@media screen and (max-width: 980px) {
+	/* pagewrap */
+	#pagewrap {
+		width: 95%;
+	}
+
+	/* content */
+	#content {
+		width: 60%;
+		padding: 3% 4%;
+		/*float: none;*/
+	}
+
+	/* sidebar */
+	#sidebar {
+		width: 30%;
+		/*float:none;*/
+	}
+	#sidebar .widget {
+		padding: 8% 7%;
+		margin-bottom: 10px;
+	}
+
+	hgroup {
+		margin: 0 0 15px;
+	}
+}
+
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (max-width: 650px) {
+
+	nav{
+		float:none;
+		width:100%;
+	}
+
+	/* site description */
+	hgroup {
+		margin: 0 0 15px;
+		float: none;
+		width: 100%;
+	}
+
+	/* content */
+	#content {
+		width: 100%;
+		float: none;
+		margin: 20px 0;
+		padding: 0;
+	}
+
+	/* sidebar */
+	#sidebar {
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+	#sidebar .widget {
+		padding: 3% 4%;
+		margin: 0 0 10px;
+	}
+
+}
+
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+
+	/* main nav */
+	#main-nav a {
+		font-size: 90%;
+		padding: 10px 8px;
+	}
+
+	.tooltip:hover .tooltiptext {
+	    visibility: hidden;
+	}
+}
+
