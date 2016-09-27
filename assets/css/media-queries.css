@@ -27,12 +27,18 @@ smaller than 980
 	hgroup {
 		margin: 0 0 15px;
 	}
+
+	.post-image{
+		width: 150%;
+		float: none;
+		margin: 0 auto;
+	}
 }
 
 /************************************************************************************
 smaller than 650
 *************************************************************************************/
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
 
 	nav{
 		float:none;
@@ -70,7 +76,7 @@ smaller than 650
 /************************************************************************************
 smaller than 560
 *************************************************************************************/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
 
 	/* main nav */
 	#main-nav a {

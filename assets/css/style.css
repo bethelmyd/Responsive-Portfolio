@@ -6,6 +6,7 @@ body {
 	color: #777;
 	background-color: #e6e6e6;
     background-image: url("../images/concrete_seamless.png");
+    line-height: 1.5em;
 }
 a {
 	color: #026acb;
@@ -133,6 +134,11 @@ CONTENT
 	border-radius: 8px;
 }
 
+#content p{
+	padding: 10px;
+}
+
+
 /* post */
 .post {
 	margin-bottom: 40px;
@@ -145,7 +151,7 @@ CONTENT
 
 /* post image */
 .post-image {
-	margin: 0 0 0;
+	margin: 0 10px 0 0;
 	float: left;
 }
 
