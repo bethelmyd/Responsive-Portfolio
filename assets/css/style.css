@@ -96,11 +96,16 @@ nav{
 	padding: 0;
 	position: relative;
 }
+#main-nav ul{
+	text-align: center;
+}
+
 #main-nav li {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	float: right;
+	display: inline-block;
+	/*float: right;*/
 	position: relative;
 }
 #main-nav li:first-child {

@@ -29,9 +29,8 @@ smaller than 980
 	}
 
 	.post-image{
-		width: 150%;
 		float: none;
-		margin: 0 auto;
+		text-align: center;
 	}
 }
 
@@ -71,6 +70,15 @@ smaller than 650
 		margin: 0 0 10px;
 	}
 
+	.post-image{
+		float: left;
+		text-align: left;
+	}
+
+	.widget ul{
+		text-align: center;
+	}
+
 }
 
 /************************************************************************************
@@ -86,6 +94,10 @@ smaller than 560
 
 	.tooltip:hover .tooltiptext {
 	    visibility: hidden;
+	}
+
+	ul{
+		text-align: center;
 	}
 }
 
