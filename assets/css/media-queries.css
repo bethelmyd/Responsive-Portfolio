@@ -3,7 +3,7 @@ smaller than 980
 *************************************************************************************/
 @media screen and (max-width: 980px) {
 	/* pagewrap */
-	#pagewrap {
+	#container {
 		width: 95%;
 	}
 
@@ -42,6 +42,10 @@ smaller than 650
 	nav{
 		float:none;
 		width:100%;
+	}
+
+	#main-nav{
+		text-align:center;
 	}
 
 	/* site description */
@@ -92,12 +96,16 @@ smaller than 560
 		padding: 10px 8px;
 	}
 
-	.tooltip:hover .tooltiptext {
+/*	.tooltip:hover .tooltiptext {
 	    visibility: hidden;
 	}
-
+*/
 	ul{
 		text-align: center;
+	}
+
+	#main-nav li{
+		padding: 0 2.5em 0 0;
 	}
 }
 
