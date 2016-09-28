@@ -214,6 +214,7 @@ FOOTER
 #footer {
 	clear: both;
 	background-color: #666;
+	color:white;
 	font-size: 85%;
 	text-align: center;
 	border-top: 10px solid teal;

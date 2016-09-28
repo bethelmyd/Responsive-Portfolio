@@ -1,0 +1,116 @@
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+@media screen and (max-width: 980px) {
+	/* pagewrap */
+	#container {
+		width: 95%;
+	}
+
+	/* content */
+	#content{
+		width: 60%;
+		padding: 3% 4%;
+		/*float: none;*/
+	}
+
+	/* sidebar */
+	#sidebar {
+		width: 30%;
+		/*float:none;*/
+	}
+	#sidebar .widget {
+		padding: 8% 7%;
+		margin-bottom: 10px;
+	}
+
+	hgroup {
+		margin: 0 0 15px;
+	}
+
+	.post-image{
+		float: none;
+		text-align: center;
+	}
+
+	form{
+		width: 95%;
+	}
+}
+
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+@media screen and (max-width: 768px) {
+
+	nav{
+		float:none;
+		width:100%;
+	}
+
+	#main-nav{
+		text-align:center;
+	}
+
+	/* site description */
+	hgroup {
+		margin: 0 0 15px;
+		float: none;
+		width: 100%;
+	}
+
+	/* content */
+	#content {
+		width: 100%;
+		float: none;
+		margin: 20px 0;
+		padding: 0;
+	}
+
+	/* sidebar */
+	#sidebar {
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+	#sidebar .widget {
+		padding: 3% 4%;
+		margin: 0 0 10px;
+	}
+
+	.post-image{
+		float: left;
+		text-align: left;
+	}
+
+	.widget ul{
+		text-align: center;
+	}
+
+}
+
+/************************************************************************************
+smaller than 640
+*************************************************************************************/
+@media screen and (max-width: 640px) {
+
+	/* main nav */
+	#main-nav a {
+		font-size: 90%;
+		padding: 10px 8px;
+	}
+
+/*	.tooltip:hover .tooltiptext {
+	    visibility: hidden;
+	}
+*/
+	ul{
+		text-align: center;
+	}
+
+	#main-nav li{
+		padding: 0 2.5em 0 0;
+	}
+
+}
+

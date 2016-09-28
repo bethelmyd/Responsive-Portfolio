@@ -1,75 +1,109 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Basic Portfolio - Contact Page</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
-	<link rel="stylesheet" type="text/css" href="../assets/css/contact_styles.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Adaptive Portfolio - Contact Page</title>
+
+	<!-- main css -->
+	<link href="../assets/css/reset.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/style.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/contact_styles.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/contact-media-queries.css" rel="stylesheet" type="text/css">
+
 </head>
+
 <body>
-	<header>
-		<section id = "insideHeader" class="group">
-			<section id="leftOfInsideHeader">
-				<h2>David Bethelmy</h2>
-			</section>
-			<section id="rightOfInsideHeader">
-				<nav>
-					<ul>
-						<li><a href="../index.html">About</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</nav>
-			</section>
-		</section>
+
+	<header id="header" class="clearfix">
+		<div id="container">
+			<hgroup>
+				<h1>David G. Bethelmy</h1>
+			</hgroup>
+
+			<nav>
+				<ul id="main-nav" class="clearfix">
+					<li><a href="#">Home</a></li>
+					<li><a href="html/portfolio.html">Portfolio</a></li>
+					<li><a href="html/contact.html">Contact</a> </li>
+				</ul>
+				<!-- /#main-nav --> 
+			</nav>
+		</div>
 	</header>
-	<main class="group">
-		<section id="leftOfMain">
-			<form method = "POST" action = "#">
-				<!-- Some form elements like label and input are styled as block elements -->
-				<p>
-					<label>Name</label>
-					<input type = "text" name = "fullName" placeholder="John Doe">
-				</p>
-				<p>
-					<label>Email</label>
-					<input type="email" name="email" placeholder="you@wherever.com">
-				</p>
-				<p>
-					<label>Message</label>
-					<textarea name="message" rows="10" placeholder="Leave a message here."></textarea>
-				</p>
-				<p>
-					<input type="submit" name="Submit" value = "Submit">
-				</p>
-			</form>
-		</section>
-		<section id = "rightOfMain">
-			<h4>Connect with Me</h4>
-			<ul>
-				<li class="tooltip">
-					<a href="#"><img src="../assets/images/facebook.png" alt="Facebook"></a>
-					<span class="tooltiptext">Facebook</span>
-				</li>
-				<li class="tooltip">
-					<a href="https://www.linkedin.com/in/david-bethelmy-2504b312"><img src="../assets/images/linkedin_sheep.png" alt="LinkedIn"></a>
-					<span class="tooltiptext">LinkedIn</span>
-				</li>
-				<li class="tooltip">
-					<a href="#"><img src="../assets/images/github-octocat.png" alt="GitHub"></a>
-					<span class="tooltiptext">GitHub</span>
-				</li>
-				<li class="tooltip">
-					<a href="#"><img src="../assets/images/stackoverflowpx.png" alt="Stack Overflow"></a>
-					<span class="tooltiptext">Stack Overflow</span>
-				</li>
-			</ul>
-		</section>
-	</main>
-	<footer>
-		<h6>&copy;Copyright 2016 David Bethelmy</h6>
+	<div id="container">
+
+		<!-- /#header -->
+
+		<div id="content">
+
+			<article class="post clearfix">
+				<form method = "POST" action = "#">
+					<!-- Some form elements like label and input are styled as block elements -->
+					<p>
+						<label>Name</label>
+						<input id="name" type = "text" name = "fullName" placeholder="John Doe">
+					</p>
+					<p>
+						<label>Email</label>
+						<input id="email" type="email" name="email" placeholder="you@wherever.com">
+					</p>
+					<p>
+						<label>Message</label>
+						<textarea id="message" name="message" rows="10" placeholder="Leave a message here."></textarea>
+					</p>
+					<p>
+						<input type="submit" name="Submit" value = "Submit">
+					</p>
+				</form>
+			</article>
+			<!-- /.post -->
+
+		</div>
+		<!-- /#content --> 
+
+
+		<aside id="sidebar">
+
+			<!-- /.widget -->
+
+			<section class="widget clearfix">
+				<h4 class="widgettitle">Contact Me</h4>
+				<ul>
+					<li class="tooltip">
+						<a href="#"><img src="../assets/images/facebook.png" alt="Facebook"></a>
+						<span class="tooltiptext">Facebook</span>
+					</li>
+					<li class="tooltip">
+						<a href="https://www.linkedin.com/in/david-bethelmy-2504b312"><img src="../assets/images/linkedin_sheep.png" alt="LinkedIn"></a>
+						<span class="tooltiptext">LinkedIn</span>
+					</li>
+					<li class="tooltip">
+						<a href="#"><img src="../assets/images/github-octocat.png" alt="GitHub"></a>
+						<span class="tooltiptext">GitHub</span>
+					</li>
+					<li class="tooltip">
+						<a href="#"><img src="../assets/images/stackoverflowpx.png" alt="Stack Overflow"></a>
+						<span class="tooltiptext">Stack Overflow</span>
+					</li>
+				</ul>
+				
+			</section>
+			<!-- /.widget -->
+
+		</aside>
+		<!-- /#sidebar -->
+
+
+	</div>
+	<!-- /#container -->
+
+	<footer id="footer">
+
+		<p>&copy;David G. Bethelmy 2016</p>
+
 	</footer>
+	<!-- /#footer --> 
+
 </body>
 </html>
