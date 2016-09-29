@@ -1,24 +1,36 @@
-#leftOfMain > section {
+/*#content{
+	padding: 0;
+}
+
+#content header{
+	padding-left: 5px;
+	font-size: .8em;
+}*/
+article{
+	margin: 0;
+	padding: 0;
+}
+article > section {
 	padding:0;
-	margin-left: 10px;
+	/*margin-left: 10px;*/
 	margin-bottom: 20px;
 }
-#leftOfMain > section > div{
+article > section > div{
 	position: relative;
 	width: 315px;
 	height: 360px;
 	padding:0;
 }
 
-#leftOfMain > section > div.left{
+article > section > div.left{
 	float: left;
 }
 
-#leftOfMain section > div.right{
+article section > div.right{
 	float: right;
 }
 
-#leftOfMain section h3{
+article section h3{
 	border: none;
 	color: white;
 	background-color: teal;
@@ -36,7 +48,8 @@
 .row > div > img{
 	width:315px;
 	height: 360px;
-	border:none;
+	/*border:none;*/
 	padding: 0;
 	margin:0;
+	border-radius: 10px;
 }
