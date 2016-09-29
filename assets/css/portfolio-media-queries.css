@@ -11,14 +11,13 @@ smaller than 980
 	#content{
 		width: 60%;
 		padding: 3% 4%;
-		/*float: none;*/
 	}
 
 	/* sidebar */
 	#sidebar {
 		width: 30%;
-		/*float:none;*/
 	}
+
 	#sidebar .widget {
 		padding: 8% 7%;
 		margin-bottom: 10px;
@@ -37,10 +36,7 @@ smaller than 980
 		margin-bottom: 10px;
 	}
 
-/*	.row{
-		width: 100%;
-	}
-*/}
+}
 
 /************************************************************************************
 smaller than 768
@@ -77,6 +73,7 @@ smaller than 768
 		margin: 0;
 		float: none;
 	}
+	
 	#sidebar .widget {
 		padding: 3% 4%;
 		margin: 0 0 10px;
@@ -123,10 +120,6 @@ smaller than 640
 		padding: 10px 8px;
 	}
 
-/*	.tooltip:hover .tooltiptext {
-	    visibility: hidden;
-	}
-*/
 	ul{
 		text-align: center;
 	}
@@ -137,7 +130,6 @@ smaller than 640
 
 	#content .left, #content .right{
 		float:none;
-		margin: 0 auto;
 		width: 100%;
 	}
 
